@@ -5,6 +5,20 @@ date: "5/3/2020"
 output: html_document
 ---
 
+No es bueno sincronizar directamente por Rstudio, lo conveniente es mediante la terminal de git, para esto se realiza los siguientes pasos:
+
+- cd ..
+- cd .. 
+- cd nombre de la primera carpeta/
+- cd nombre del sub directorio o carpeta/
+- ls
+- git status
+- git add . 
+- git commit ~m "created my first document"
+- git push
+- git status
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
